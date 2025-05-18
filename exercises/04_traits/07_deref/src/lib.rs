@@ -16,7 +16,7 @@ impl Ticket {
     }
 
     pub fn description(&self) -> &str {
-        todo!()
+        &self.description.trim()
     }
 }
 
